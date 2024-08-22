@@ -1,0 +1,52 @@
+.Classes {
+  text-align: center;
+}
+
+.class-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .class-item {
+  width: 300px;
+  margin: 20px;
+  text-align: left;
+} */
+
+.class-name {
+  text-align: center;
+}
+
+.assignments {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.assignment-item {
+  display: flex;
+  justify-content:space-around;
+  padding: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.add-class, .add-assignment, .edit-class, .edit-assignment {
+  margin-bottom: 20px;
+}
+
+.class-item {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .class-buttons {
+    margin-top: 10px;
+  }
+
+  .class-block {
+    padding: 30px;
+  }
