@@ -51,3 +51,5 @@ CREATE TABLE grades (
     assignment_id INTEGER REFERENCES assignments(id) ON DELETE CASCADE
 );
 
+
+\i ./db/seed.sql
